@@ -87,7 +87,7 @@ def plot(x, y, theta, set_label, save_path=None, correction=1.0):
     # Add labels and save to disk
     plt.xlabel('x1')
     plt.ylabel('x2')
-    plt.title(f'Dataset {set_label}')
+    plt.title(f'{set_label}')
     if save_path is not None:
         plt.savefig(save_path)
 
